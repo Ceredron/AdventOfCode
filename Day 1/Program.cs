@@ -8,12 +8,6 @@ namespace Day_1
     {
         static void Main(string[] args)
         {
-            // 1. Read input file
-            // 2. For part one
-            //      * Sum up every line according to + or -
-            //      * Print result
-            // 3. For part two
-            //      * Iterate through lines, add every line to a list, return first duplicate
             StreamReader sumReader;
             StreamReader duplicateReader;
             int frequency = 0;
