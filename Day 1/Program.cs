@@ -62,12 +62,10 @@ namespace Day_1
             List<int> frequencies = new List<int>();
             int frequency = 0;
 
-            // Read every line
             while(reader.Peek() != -1){
                 lines.Add(reader.ReadLine());
             }
 
-            // Find duplicate frequency
             while(true){              
                 
                 foreach(string line in lines){
