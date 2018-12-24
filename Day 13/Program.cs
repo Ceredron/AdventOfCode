@@ -51,7 +51,7 @@ namespace Day_13
                     }
                 }
 
-            while (!crashed){
+            while (true){
                 
                 // Debugger
                 for (int y = 25; y < 35; y++){
@@ -65,8 +65,6 @@ namespace Day_13
                 Console.WriteLine();
                 SimulateTick();
             }
-
-            Console.WriteLine("Crashed at (" + crashLocation.x + ", " + crashLocation.y + ").");
         }
 
         static void SimulateTick()
