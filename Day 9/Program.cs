@@ -10,7 +10,7 @@ namespace Day_9
         static void Main(string[] args)
         {
             int amountOfPlayers = Convert.ToInt32(args[0]);
-            int lastMarble = Convert.ToInt32(args[1]);
+            int lastMarbleInt = Convert.ToInt32(args[1]);
             if (amountOfPlayers == 0)
             {
                 Console.WriteLine("Must be at least one player playing.");

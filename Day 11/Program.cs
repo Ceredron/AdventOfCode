@@ -4,7 +4,7 @@ namespace Day_11
 {
     class Program
     {
-        // Computers these days are pretty fast
+        // Brute force
         // Arg0: Grid Serial Number
         static void Main(string[] args)
         {
